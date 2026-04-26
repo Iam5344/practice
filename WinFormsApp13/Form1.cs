@@ -35,9 +35,9 @@ namespace WinFormsApp13
             sw2.Stop();
 
             label3.Text =
-                $"Знайдено файлів: {countSeq}\n" +
-                $"Послідовно: {sw1.ElapsedMilliseconds} мс\n" +
-                $"Паралельно: {sw2.ElapsedMilliseconds} мс";
+                $"Р—РЅР°Р№РґРµРЅРѕ С„Р°Р№Р»С–РІ: {countSeq}\n" +
+                $"РџРѕСЃР»С–РґРѕРІРЅРѕ: {sw1.ElapsedMilliseconds} РјСЃ\n" +
+                $"РџР°СЂР°Р»РµР»СЊРЅРѕ: {sw2.ElapsedMilliseconds} РјСЃ";
         }
     }
 }
